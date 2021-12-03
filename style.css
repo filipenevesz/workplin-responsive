@@ -1,0 +1,257 @@
+/*Fonts
+---------*/
+
+@font-face {
+    font-family: "pop bold";
+    src: url(font/Poppins-Bold.woff);
+}
+
+@font-face {
+    font-family: "pop thin";
+    src: url(font/Poppins-Light.woff);
+
+} 
+
+/*Menu
+---------*/
+
+#menu {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: "pop bold";
+    font-size: 16px;
+}
+
+span {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 1.3em;
+    font-family: "pop thin";
+}
+
+.nav-link:hover {
+    color: #6c63ff;
+    font-size: 1.3em;
+    font-family: "pop thin";
+    text-decoration: underline;
+}
+
+
+#logo {
+    color: #000;
+    text-decoration: none;   
+    font-size: 2.5em;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+#logo2 {
+    position: absolute;
+    right: 150px;
+    top: 29em;
+    color: #000;
+    text-decoration: none;   
+    font-size: 2.5em;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+
+/*Conteúdos
+---------*/
+
+h1 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+#conteudo {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+/*Comentarios
+---------*/
+
+.caixa {
+    border: 3px solid #6c63ff;
+    background-color: #fff;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+   
+}
+
+.caixa h3 {
+    font-size: 1.5em;
+   
+}
+
+#caixa-com {
+    text-align: center;
+    font-size: 0.5em;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1); 
+}
+
+#caixa-com h4 {
+    font-size: 2.9em;
+    width: 100%;
+
+}
+
+#comentarios {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1); 
+}
+
+h2 {
+    text-align: center;
+}
+
+#butao {
+    text-align: center;
+}
+
+.btn-custom {
+    border-radius: 10px;
+    background-color: #151515;
+    color: #6c63ff;
+    font-size: 2em;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.btn-custom:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.container-custom {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+/*Rodape
+---------*/
+
+#rodape {
+    background: #6c63ff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+#rodape-text ul li a {
+    color: #000;
+    font-family: "pop bold";
+    
+}
+
+#rodape-text ul li a:hover {
+    color: #fff;
+    
+}
+
+/*Media queries
+----------------*/
+
+@media (max-width: 575.98px) {
+	
+    .container-custom {
+        max-width: 380px;
+    }
+
+    #md2 {
+        display: none;
+    }
+
+    #logo2 {
+        right: 150px;
+        top: 24em;
+        display: none;
+    }
+
+    #rodape-text ul li a {
+        text-align: center;
+        
+    }
+  
+}
+
+  @media (min-width: 576px) {
+    .container-custom {
+        max-width: 380px;
+    }
+
+    #md2 {
+        display: none;
+    }
+
+    #logo2 {
+        right: 150px;
+        top: 24em;
+        display: none;
+    }
+
+    
+
+
+  }
+  @media (min-width: 768px) {
+    .container-custom {
+        max-width: 710px;
+    }
+
+    #md2 {
+        display: block;
+    }
+
+    
+
+    #logo2 {
+        right: 150px;
+        top: 24em;
+        display: block;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .container-custom  {
+        max-width: 820px;
+    }
+
+    #logo2 {
+        right: 150px;
+        top: 26em;
+    }
+    
+  }
+  @media (min-width: 1200px) {
+    .container-custom {
+        max-width: 840px;
+    }
+
+    #logo2 {
+        right: 150px;
+        top: 27.8em;
+    }
+    
+  }
+  @media (min-width: 1400px) {
+    .container-custom {
+        max-width: 920px;
+    }
+
+    #logo2 {
+        right: 150px;
+        top: 29em;
+    }
+
+  }
