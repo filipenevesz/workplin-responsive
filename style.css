@@ -12,6 +12,10 @@
 
 } 
 
+.dark-mode {
+    background: #181818;
+}
+
 /*Menu
 ---------*/
 
@@ -90,6 +94,20 @@ h1 {
    
 }
 
+.dark-caixa {
+    border: 3px solid #6c63ff;
+    background-color: #131313;
+    padding: 2px 0px 2px 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    color: rgb(219, 219, 219);
+}
+
+.dark-caixa h3 {
+    font-size: 1.5em;
+   
+}
+
 #caixa-com {
     text-align: center;
     font-size: 0.5em;
@@ -100,7 +118,26 @@ h1 {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1); 
 }
 
+
+
 #caixa-com h4 {
+    font-size: 2.9em;
+    width: 100%;
+
+}
+
+#caixa-com-dark {
+    text-align: center;
+    font-size: 0.5em;
+    background-color: #131313;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1); 
+    color: rgb(219, 219, 219);
+}
+
+#caixa-com-dark h4 {
     font-size: 2.9em;
     width: 100%;
 
@@ -130,6 +167,20 @@ h2 {
     color: #fff;
     text-decoration: underline;
 }
+
+.btn-custom-dark {
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    color: #6c63ff;
+    font-size: 2em;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.btn-custom-dark:hover {
+    color: #181818;
+    text-decoration: underline;
+}
+
 
 
 .container-custom {
