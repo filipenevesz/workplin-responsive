@@ -1,4 +1,4 @@
 # WorkPlin-responsive
 WorkPlin
 
-![Spotify Initial Page](https://i.imgur.com/N00UqBy.png)
+![WorkPlin Responsive](https://i.imgur.com/N00UqBy.png)
